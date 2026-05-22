@@ -2,7 +2,7 @@ import axios from 'axios';
 import type { PollutantSummary, RegionalSummary } from '../types/airQuality';
 
 const API = axios.create({
-    baseURL: 'http://localhost:5000/api',
+    baseURL: 'https://aqi-monitoring-forecasting-system.onrender.com',
 });
 
 export const fetchCities = () => API.get('/cities');
