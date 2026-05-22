@@ -1,0 +1,9 @@
+/* App custom styles and Plotly overrides */
+.js-plotly-plot .plotly .modebar {
+  background: transparent !important;
+}
+
+.plotly-graph-div {
+  width: 100% !important;
+  height: 100% !important;
+}
